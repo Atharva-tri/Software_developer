@@ -1,4 +1,14 @@
- import java.util.Scanner;
+
+/*
+  Program: Calculate Area and Perimeter
+  Author: Sathivika Pittala
+  Description: This Java code calculates the area and perimeter
+               of a rectangle using user input.
+*/
+
+
+import java.util.Scanner;        //Scanner library for taking input
+
 public class RectanglePerimeter {
    public static void main( String[] args) {
     Scanner sc = new Scanner(System.in);
