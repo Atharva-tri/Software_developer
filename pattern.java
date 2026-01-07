@@ -1,3 +1,11 @@
+/*
+  Program: Print Pyramid Pattern
+  Author: Sathivika Pittala
+  Description: This Java code prints a pyramid pattern of asterisks.
+*/
+
+
+
 import java.util.*;
 
 public class pattern {
