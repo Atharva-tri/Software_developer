@@ -1,4 +1,4 @@
-// Bus Route implementation using Linked List in Java
+
 
 class BusStop {
     String name;
@@ -17,10 +17,10 @@ public class Bus {
         BusStop head = null;
         BusStop temp = null;
 
-        // Bus stop names
+        
         String[] stops = {"Stop A", "Stop B", "Stop C", "Stop D"};
 
-        // Create linked list
+        
         for (int i = 0; i < stops.length; i++) {
             BusStop newNode = new BusStop(stops[i]);
 
@@ -33,7 +33,7 @@ public class Bus {
             }
         }
 
-        // Display bus route
+       
         System.out.print("Bus Route: ");
         temp = head;
         while (temp != null) {
@@ -43,3 +43,4 @@ public class Bus {
         System.out.print("END");
     }
 }
+
